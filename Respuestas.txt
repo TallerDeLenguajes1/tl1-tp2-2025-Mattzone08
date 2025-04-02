@@ -1,0 +1,8 @@
+Pregunta: ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+No, no lo puedo ver pues al cambiar de rama los archivos de esa rama se ocultan para no verse tanto en el explorador de archivos como en el visual studio code
+
+
+Pregunta: En VSCode vuelva al “Source Control” ¿Qué diferencias nota?
+
+Se puede ver una rama al lado de la rama principal luego de hacer el commit con el texto de respuestas.
