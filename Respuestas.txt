@@ -6,3 +6,8 @@ No, no lo puedo ver pues al cambiar de rama los archivos de esa rama se ocultan 
 Pregunta: En VSCode vuelva al “Source Control” ¿Qué diferencias nota?
 
 Se puede ver una rama al lado de la rama principal luego de hacer el commit con el texto de respuestas.
+
+
+Pregunta: En VSCode vuelva al “Source Control” vea los cambios, ¿Qué nota?
+
+Luego de hacer el merge la rama que estaba separada se volvio a unir en el main ademas de poder visibilizar de nuevo el archivo que estaba en la otra rama.
