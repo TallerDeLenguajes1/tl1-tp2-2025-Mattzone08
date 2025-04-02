@@ -16,6 +16,8 @@ struct compu {
 
    };
 
+void listarPCs(struct compu compus[], int cantidad);
+
 int main(){
 
     struct compu compus[N];
@@ -33,17 +35,27 @@ int main(){
 
         compus[i].tipo_cpu = tipos[rand() % 6];
 
+    }
+
+    listarPCs(compus, N);
+
+    return 0;
+}
+
+
+void listarPCs(struct compu compus[], int cantidad){
+
+    for (int i = 0; i < cantidad; i++){
+    
         printf("Computadora %d:\n", i + 1);
         printf("  Tipo de CPU: %s\n", compus[i].tipo_cpu);
         printf("  Velocidad: %d GHz\n", compus[i].velocidad);
         printf("  Año de fabricación: %d\n", compus[i].anio);
         printf("  Cantidad de núcleos: %d\n", compus[i].cantidad_nucleos);
         printf("\n");
-
-    }
     
+    }
 
-;
 
-    return 0;
+    return;
 }
